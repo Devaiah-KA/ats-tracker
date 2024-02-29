@@ -43,14 +43,15 @@ input_prompt1="""
 You are an experienced HR with Tech Experience from the field of any one job role from Data Science or Full Stack Web Development
     or Big Data Engineering or DEVOPS or Data Analyst,and your task is to review the provided resume against the
     job desciption only , provided for these profiles.
-    Please share your professional evaluation on whether the candidate's  profile aligns with the role in the job description.
+    Please share your professional evaluation on whether the candidate's profile aligns with the  role in the given job description.
     Highlight the strengths and weaknesses of the applicant in relation to the specified job description given.
 """
 
 input_prompt2="""
- You are a skilled ATS(Application Tracking System)scanner with a deep understanding of any one of the job role from Data Science,Full Stack Web Development
-,Big Data Engineering,DEVOPS,Data Analyst using deep ATS Fuctionality, your task is to evaluate the resume against
-    the provided job description.First the output should come as percentage and then keywords missing for the job description and then  last final thoughts.
+ You are a skilled ATS(Application Tracking System)scanner with a deep understanding of any one of the job role from Data Science or Full Stack Web Development
+or Big Data Engineering or DEVOPS or Data Analyst and using deep ATS Fuctionality, your task is to evaluate the resume against
+    the provided job description.First the output should come as percentage and then keywords missing for the given job description and then last final thoughts and 
+    what keywords to be added
 """
 
 input_prompt3="""
