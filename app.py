@@ -10,7 +10,7 @@ import base64
 import pdf2image
 import google.generativeai as genai
 
-
+## A new Change
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 def get_gemini_response(input,pdf_content,prompt):
