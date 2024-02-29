@@ -25,7 +25,7 @@ def input_pdf_text(uploaded_file):
 
 
 ## streamlit app
-st.title("Smart ATS")
+st.title("Smart ATS Tracker")
 st.text("Improve Your Resume ATS")
 jd=st.text_area("Paste the Job Description")
 uploaded_file=st.file_uploader("Upload Your Resume",type="pdf",help="Please upload the pdf")
@@ -54,10 +54,9 @@ input_prompt2="""
 """
 
 input_prompt3="""
-You are a skilled ATS(Application Tracking System)scanner with a deep understanding of any one of the job role from Data Science,Full Stack Web Development
-,Big Data Engineering,DEVOPS,Data Analyst using deep ATS Fuctionality, your task is to evaluate the resume against
-    the provided job description. The output should come as percentage,comparing how the resume fits the job description with the keywords that matched with 
-    the resume in yellow highlighted text. 
+You are a skilled ATS(Application Tracking System)scanner with a deep understanding of any one of the job role from Data Science or Full Stack Web Development
+or Big Data Engineering or DEVOPS or Data Analyst and using deep ATS Fuctionality, your task is to evaluate the resume against
+    the provided job description. The output should come only as a  percentage.The percentage depends on how good the resume fits with the job description 
 """
 
 if submit1:
